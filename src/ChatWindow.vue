@@ -7,7 +7,7 @@
       @close="$emit('close')"
       @userList="handleUserListToggle"
     >
-      <template>
+      <template v-slot:header>
         <slot name="header"> </slot>
       </template>
     </Header>
